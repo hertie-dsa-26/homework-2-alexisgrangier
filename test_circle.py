@@ -12,5 +12,5 @@ class testCircle(unittest.TestCase):
         c = Cricle (1)
         self.assertAlmostEqual(c.area(), 3,14159, places = 4)
 
-if __name__ = "__main__":
+if __name__ == "__main__":
 unittest.main()
