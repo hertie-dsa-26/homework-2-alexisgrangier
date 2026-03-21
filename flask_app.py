@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 
 from helper import perform_calculation, convert_to_float
 
+from circle import perimeter, area 
+
 app = Flask(__name__)  # create the instance of the flask class
 
 
